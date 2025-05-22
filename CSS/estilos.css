@@ -1,0 +1,35 @@
+div.carousel-item {
+    max-height: 400px;
+    overflow: hidden;
+    height: 400px; /* Altura fija para el carrusel */
+ }
+ 
+ div.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+ 
+ .carousel-inner {
+    height: 400px; /* Asegura que el contenedor interno también tiene altura fija */
+ }
+
+i{
+    font-size: 30px;
+}
+i.bi-headset-vr{
+    color: red;
+}
+i.bi-ban{
+    color: blue;
+}
+i.bi-camera{
+    color: green;
+}
+i.bi-cash{
+    color: yellow;
+}
+i.bi-controller{
+    color: black;
+}
